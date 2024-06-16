@@ -1,16 +1,16 @@
 ## ABOUT TEXT TWISTER
 Our app provides a simple and intuitive interface for all your text processing needs. With just a few clicks, you can:
-Convert Text Case: Switch between uppercase and lowercase to suit your requirements.
-Copied Text to Clipboard:With the help of this you can also copy your text to clipboard and use it later in just one click
-<strong>Word and Sentence Count:</strong>Quickly get the count of words and sentences to keep track of your content length.
-<strong>Additional Features:</strong> Explore a range of other text transformations that can help streamline your writing process.
-Text Twister is perfect for students, writers, coders, and anyone who regularly works with text.
-Our goal is to save you time and effort by providing a reliable tool that handles all basic text operations in one place.
-
-Thank you for choosing Text Twister. We hope our app enhances your productivity and makes text manipulation a breeze.
-Knowing the word count of a text can be important. For example, if an author has to write a minimum or maximum amount of words for an article, essay, report, story, book, paper, you name it. WordCounter will help to make sure its word count reaches a specific requirement or stays within a certain limit.
+<br></br>
+<strong>Convert Text Case: </strong> Switch between uppercase and lowercase to suit your requirements.<br></br><strong>Copied Text to Clipboard</strong>:With the help of this you can also copy your text to clipboard and use it later in just one click<br></br>
+<strong>Word and Sentence Count:</strong>Quickly get the count of words and sentences to keep track of your content length.<br></br>
+<strong>Additional Features:</strong> Explore a range of other text transformations that can help streamline your writing process.<br></br>
+Text Twister is perfect for students, writers, coders, and anyone who regularly works with text.<br>
+</br> <b><i>Our goal</i></b> is to save you time and effort by providing a reliable tool that handles all basic text operations in one place.
+<br></br>
+<strong><i>Thank you</i></strong> for choosing Text Twister. We hope our app enhances your productivity and makes text manipulation a breeze. <br></br>
+ Knowing the word count of a text can be important. For example, if an author has to write a minimum or maximum amount of words for an article, essay, report, story, book, paper, you name it. WordCounter will help to make sure its word count reaches a specific requirement or stays within a certain limit.
+ <br></br>
 HAPPY TWISTING
-
 
 # Getting Started with Create React App
 
