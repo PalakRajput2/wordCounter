@@ -7,7 +7,7 @@ export default function Navbar(props) {
     <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode} ` }>
     <div className="container-fluid" >
     <Link className="navbar-brand" to="/"  >
-    <img src='https://pngteam.com/images/twister-png-1487x944_602dab9f_transparent_20200b.png.png' alt='image' style={{height:"60px", }}></img>
+    <img src='https://pngteam.com/images/twister-png-1487x944_602dab9f_transparent_20200b.png.png' alt='img' style={{height:"60px", }}></img>
     
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
