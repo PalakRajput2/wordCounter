@@ -14,7 +14,7 @@ export default function About(props) {
     
     return (
         <div className="container">
-           <h1 className="my-3" style={{ color: props.mode ==='dark'?'white':'dark',}}>About Us</h1>
+           <h1 className="my-3" style={{color: props.mode ==='dark'?'white':'dark'}}>About Us</h1>
           <div class="card my-3" >
   <div class="card-body" style={{textAlign:"justify"}}>
     <p class="card-text" style={{fontSize: '18px'}}> Welcome to Text Twister, your all-in-one text manipulation tool! Text Twister is designed to make handling text easy and efficient. Whether you're looking to convert text to uppercase or lowercase, count the number of words and sentences, or perform various other text transformations, Text Twister has got you covered.

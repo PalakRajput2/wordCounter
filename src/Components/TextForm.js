@@ -32,7 +32,7 @@ const handleinverseClick = () => {
 
 const handleCopy = () => {
   navigator.clipboard.writeText(text); 
-  props.showAlert(" Copied to clipboard!!!1","success");
+  props.showAlert(" Copied to clipboard!!!","success");
 }
 
 
@@ -92,10 +92,10 @@ const toggleMode3 = () => {
          <div className="mb-3 ">
             <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor: props.mode==='dark'?'#13466e':'white', color: props.mode==='dark'?'white':'#042743'}}id="myBox" rows="8"></textarea><br></br>
             </div>
-            <button disabled={text.length===0} className={`button btn btn-primary mx-2`} onClick={handleUpClick} toggleMode1={toggleMode1}toggleMode2={toggleMode2} toggleMode3={toggleMode3} style={buttonStyle[props.mode]} >Convert to UpperCase</button>
-            <button disabled={text.length===0} className="button btn btn-primary mx-2" onClick={handleLowerClick} toggleMode2={toggleMode2} toggleMode3={toggleMode3} style={buttonStyle[props.mode]}>Convert to LowerCase</button>
-            <button disabled={text.length===0} className="button btn btn-primary mx-2" onClick={handleClearClick} toggleMode2={toggleMode2}style={buttonStyle[props.mode]}>Clear Text</button>
-            <button disabled={text.length===0} className="button btn btn-primary mx-2" onClick={handleinverseClick} toggleMode2={toggleMode2}style={buttonStyle[props.mode]}>Inverse Text</button>
+            <button disabled={text.length===0} className={`button btn btn-primary mx-1 my-1`} onClick={handleUpClick} toggleMode1={toggleMode1}toggleMode2={toggleMode2} toggleMode3={toggleMode3} style={buttonStyle[props.mode]} >Convert to UpperCase</button>
+            <button disabled={text.length===0} className="button btn btn-primary mx-1 my-1" onClick={handleLowerClick} toggleMode2={toggleMode2} toggleMode3={toggleMode3} style={buttonStyle[props.mode]}>Convert to LowerCase</button>
+            <button disabled={text.length===0} className="button btn btn-primary mx-1 my-1" onClick={handleClearClick} toggleMode2={toggleMode2}style={buttonStyle[props.mode]}>Clear Text</button>
+            <button disabled={text.length===0} className="button btn btn-primary mx-1 my-1" onClick={handleinverseClick} toggleMode2={toggleMode2}style={buttonStyle[props.mode]}>Inverse Text</button>
             <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleCopy} toggleMode2={toggleMode2}style={buttonStyle[props.mode]}>Copy Text</button>
             <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleExtraSpaces} toggleMode2={toggleMode2}style={buttonStyle[props.mode]}>Remove Extra Spaces</button>
         
@@ -104,7 +104,7 @@ const toggleMode3 = () => {
       <h2>Your text summary</h2>
       <p>{text.replace(/\n/g, " ").split(' ').filter(value => value !== "").length}<b> words</b>  and {text.length} <b>characters</b></p>
       <p>{text.replace(/\n/g, " ").split('.').filter(value => value !== "").length} Number of sentences</p>
-      <p>{0.008 * text.split("").length}minutes reading </p>
+      <p>{0.008 * text.split("").length} minutes reading </p>
       <h2>Preview</h2>
       <p>{text.length>0?text:" Write some thing to get preview!!"}</p>
     </div>
